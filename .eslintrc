@@ -1,0 +1,6 @@
+{
+	"extends": [
+		"@nexbot",
+		"eslint-plugin-storybook"
+	]
+}
