@@ -1,6 +1,6 @@
 {
 	"extends": [
 		"@nexbot",
-		"eslint-plugin-storybook"
+		"plugin:storybook/recommended"
 	]
 }
