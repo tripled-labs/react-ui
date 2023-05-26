@@ -29,9 +29,12 @@ export default defineConfig([
 			commonjs(),
 			typescript({
 				tsconfig: './tsconfig.json',
+				include: [
+					'src'
+				],
 				exclude: [
-					'stories/**/*.stories.tsx',
-					'tests/**/*.test.tsx',
+					'stories',
+					'tests',
 				],
 			}),
 			terser(),
