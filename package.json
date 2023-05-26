@@ -16,7 +16,7 @@
   "packageManager": "yarn@3.5.1",
   "scripts": {
     "test": "jest",
-    "lint": "eslint src tests stories --ext .ts .tsx --fix",
+    "lint": "eslint src tests stories --ext .ts,.tsx --fix",
     "dev:sb": "storybook dev -p 6006",
     "build:sb": "storybook build",
     "build": "rollup -c"
