@@ -7,6 +7,7 @@ import terser from '@rollup/plugin-terser';
 import typescript from '@rollup/plugin-typescript';
 import dts from 'rollup-plugin-dts';
 import peerDepsExt from 'rollup-plugin-peer-deps-external';
+import postcss from 'rollup-plugin-postcss';
 
 export default defineConfig([
 	{
@@ -36,6 +37,16 @@ export default defineConfig([
 					'stories',
 					'tests',
 				],
+			}),
+			postcss({
+				config: {
+					path: './postcss.config.js',
+				},
+				extensions: [
+					'.css',
+				],
+				minimize: true,
+				extract: 'tailwind.css',
 			}),
 			terser(),
 		],
