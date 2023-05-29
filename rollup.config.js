@@ -31,7 +31,7 @@ export default defineConfig([
 			typescript({
 				tsconfig: './tsconfig.json',
 				include: [
-					'src',
+					'src/**/*.{ts,tsx}',
 				],
 				exclude: [
 					'stories',
