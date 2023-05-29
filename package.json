@@ -19,7 +19,8 @@
     "lint": "eslint src tests stories --ext .ts,.tsx --fix",
     "dev:sb": "storybook dev -p 6006",
     "build:sb": "storybook build",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "clean": "node scripts/clean-dist.js"
   },
   "devDependencies": {
     "@babel/core": "^7.21.8",
