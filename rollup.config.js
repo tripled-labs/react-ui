@@ -61,7 +61,11 @@ export default defineConfig([
 			format: 'esm',
 		},
 		plugins: [
-			dts(),
+			dts({
+				compilerOptions: {
+					paths: packageJson.imports,
+				},
+			}),
 		],
 		external: [
 			/\.css$/,

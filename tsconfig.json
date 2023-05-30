@@ -5,7 +5,10 @@
     "module": "ESNext",
     "moduleResolution": "node",
     "baseUrl": "./",
-    "paths": {},
+    "paths": {
+      "#components/*": ["./src/components/*"],
+      "#styles/*": ["./src/styles/*"]
+    },
     "declaration": true,
     "emitDeclarationOnly": true,
     "sourceMap": true,
