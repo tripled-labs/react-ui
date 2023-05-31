@@ -3,7 +3,7 @@
   "version": "0.0.1-alpha.1",
   "description": "A UI component library for react project that follow Diamondes UI guidelines",
   "author": "@diamondes-dev",
-  "license": "GPL-3.0",
+  "license": "Apache-2.0",
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
