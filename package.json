@@ -82,11 +82,13 @@
     "access": "public"
   },
   "keywords": [
-    "diamondes-dev",
-    "diamondes-ui",
-    "diamondes",
+    "diamond-design",
     "diamond-ui",
     "diamond",
+    "tripled-ui",
+    "tripled",
+    "triple-d",
+    "ddd",
     "react",
     "react-ui",
     "tailwind",
@@ -97,13 +99,13 @@
     "ts",
     "typescript"
   ],
-  "homepage": "https://github.com/diamondes-dev/react-ui",
+  "homepage": "https://github.com/tripled-labs/react-ui",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/diamondes-dev/react-ui.git"
+    "url": "git+https://github.com/tripled-labs/react-ui.git"
   },
   "bugs": {
-    "url": "https://github.com/diamondes-dev/react-ui/issues"
+    "url": "https://github.com/tripled-labs/react-ui/issues"
   },
   "files": [
     "dist/"
