@@ -1,0 +1,21 @@
+{
+	"Create Component": {
+		"scope": "typescriptreact",
+		"prefix": "comp",
+		"description": "Create component skeleton from template",
+		"body": [
+			"import React from 'react';",
+			"",
+			"export interface $1Props {",
+			"\t$2",
+			"}",
+			"",
+			"export function $1({ $3 }: $1Props) {",
+			"\treturn (",
+			"\t\t<>$4</>",
+			"\t);",
+			"}",
+			"$0",
+		]
+	}
+}
