@@ -47,6 +47,7 @@ export function Button({
 	return (
 		<button
 			className={classList}
+			disabled={disabled}
 			{...props}
 		>
 			{icon ? (
