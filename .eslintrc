@@ -1,6 +1,6 @@
 {
 	"extends": [
-		"@nexbot",
+		"@aenjojo",
 		"plugin:storybook/recommended"
 	]
 }
